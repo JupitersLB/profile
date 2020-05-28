@@ -1,4 +1,5 @@
 body {
+  transition: 1s;
   background-color: rgb(225, 225, 225);
   font-family: 'Nanum Gothic', sans-serif;
 }
@@ -6,22 +7,27 @@ body {
 /* Dark mode */
 
 .dark-mode {
+  transition: 0.4s;
   background-color: #200f21;
 }
 
 .dark-mode p {
+  transition: 0.4s;
   color: rgb(10, 10, 10);
 }
 
 .dark-mode h1 {
+  transition: 0.4s;
   color: #200f21;
 }
 
 .dark-mode h2 {
+  transition: 0.4s;
   color: #200f21;
 }
 
 .dark-mode a {
+  transition: 0.4s;
   color: #200f21;
 }
 
@@ -30,18 +36,22 @@ body {
 }
 
 .dark-mode .profile-box {
+  transition: 0.4s;
   background-color:  #5a3d5c;
 }
 
 .dark-mode h3 {
+  transition: 0.4s;
   color: #200f21;
 }
 
 .dark-mode .card {
+  transition: 0.4s;
   background-color: #5a3d5c;
 }
 
 .dark-mode .footer {
+  transition: 0.4s;
   background-color: #5a3d5c;
 }
 
@@ -60,22 +70,26 @@ body {
 /* Dark mode finished */
 
 h1 {
-    font-size: xxx-large;
-    letter-spacing: 4px;
-    color: #584153;
-    margin-bottom: 16px;
+  transition: 0.8s;
+  font-size: xxx-large;
+  letter-spacing: 4px;
+  color: #584153;
+  margin-bottom: 16px;
 }
 
 h2 {
+  transition: 0.8s;
   color: #584153;
 }
 
 h3 {
+  transition: 0.8s;
   color: #584153;
   padding-right: 20px;
   margin-left: auto;
 }
 a {
+  transition: 0.8s;
   text-decoration: none;
   color: #584153;
 }
@@ -85,6 +99,7 @@ a:hover {
 }
 
 p {
+  transition: 0.8s;
   color: rgb(50, 50, 50);
 }
 
@@ -110,6 +125,7 @@ button:hover {
 }
 
 .profile-box {
+  transition: 1s;
   background-color: rgb(240, 240, 240);
   padding: 20px;
   text-align: -webkit-center;
@@ -118,6 +134,7 @@ button:hover {
 }
 
 .card {
+  transition: 1s;
   background-color: rgb(240, 240, 240);
   padding: 4px 12px;
   margin: 32px 0px;
@@ -169,6 +186,7 @@ button:hover {
 }
 
 .footer {
+  transition: 1s;
   display: flex;
   background-color: rgb(240, 240, 240);
   border-radius: 4px;
@@ -184,11 +202,6 @@ button:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
-}
-
-.dark-mode {
-  background-color: #200f21;
-
 }
 
 @media (max-width: 960px) {
