@@ -3,10 +3,67 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* Dark mode */
+
+.dark-mode {
+  background-color: #200f21;
+}
+
+.dark-mode p {
+  color: rgb(10, 10, 10);
+}
+
+.dark-mode h1 {
+  color: #200f21;
+}
+
+.dark-mode h2 {
+  color: #200f21;
+}
+
+.dark-mode a {
+  color: #200f21;
+}
+
+.dark-mode a:hover {
+  color: #5a3d5c;
+}
+
+.dark-mode .profile-box {
+  background-color:  #5a3d5c;
+}
+
+.dark-mode h3 {
+  color: #200f21;
+}
+
+.dark-mode .card {
+  background-color: #5a3d5c;
+}
+
+.dark-mode .footer {
+  background-color: #5a3d5c;
+}
+
+.dark-mode .profile-box:hover {
+  background-color: #382039;
+}
+
+.dark-mode .card:hover {
+  background-color: #382039;
+}
+
+.dark-mode .footer:hover {
+  background-color: #382039;
+}
+
+/* Dark mode finished */
+
 h1 {
     font-size: xxx-large;
     letter-spacing: 4px;
     color: #584153;
+    margin-bottom: 16px;
 }
 
 h2 {
@@ -31,6 +88,22 @@ p {
   color: rgb(50, 50, 50);
 }
 
+button:focus {outline: 0;}
+
+button:hover {
+  cursor: pointer;
+  font-size: 45px;
+}
+
+.button-switch {
+  background-color: transparent;
+  border: none;
+  display: block;
+  font-size: 40px;
+  padding-top: 0px;
+  margin-bottom: 8px;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -39,6 +112,7 @@ p {
 .profile-box {
   background-color: rgb(240, 240, 240);
   padding: 20px;
+  text-align: -webkit-center;
   border-radius: 4px;
   box-shadow: 0px 0px 4px rgb(183, 168, 183);
 }
@@ -62,6 +136,12 @@ p {
 
 .footer:hover {
   background-color: rgb(230, 230, 230);
+}
+
+.box-purple:hover {
+  background-color: transparent;
+  border: 1px solid #584153;
+  border-radius: 8px;
 }
 
 .img-circle {
@@ -104,6 +184,11 @@ p {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.dark-mode {
+  background-color: #200f21;
+
 }
 
 @media (max-width: 960px) {

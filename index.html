@@ -14,7 +14,8 @@
     <div class="container text-center">
 
       <div class="profile-box">
-        <h1>Hello, I'm Liam 👻</h1>
+        <h1>Hello, I'm Liam</h1>
+        <button class="button-switch" onclick="myFunction()">👻</button>
         <img src="images/profile_pic.jpeg" alt="profile picture" class="img-circle shadow" height="250px">
         <p>I love money, computers, gaming, and sports. I joined Le Wagon to change directions.</p>
         <a href="#" target="_blank" class="box-purple">Discover Le Wagon</a>
@@ -62,5 +63,13 @@
         </ul>
       </div>
     </div>
+
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+
   </body>
 </html>
